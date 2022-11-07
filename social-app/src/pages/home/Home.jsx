@@ -17,6 +17,10 @@ export default function Home() {
     sendRequest(urlLookup, bodyChiglel);
   }, []);
 
+  const a = ["data", "action"];
+a["action"] = "10"; // a: [ 0: 'foo', 1: 'bar', baz: 'quux' ]
+JSON.stringify(a);
+
   const sendRequest = async (url, body) => {
     await fetch(url, {
       method: "POST",
@@ -37,6 +41,9 @@ export default function Home() {
     <>
     <text>
     {JSON.stringify(datas)}</text>
+    
+    {/* <text>{JSON.stringify(datas [1:10])};</text> */}
+    {/* <text>{JSON.stringify([datas (10)])};</text> */}
      <Topbar/>
      <div className="homeContainer">
      <Sidebar/>
