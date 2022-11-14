@@ -35,11 +35,11 @@ export default function Home() {
   };
   return (
     <>
-    <text>
-    {JSON.stringify(datas)}</text>
+    <p>
+    {datas && JSON.stringify(datas['data'][9])}</p>
     
     {/* <text>{JSON.stringify(datas [1:10])};</text> */}
-    {/* <text>{JSON.stringify([datas (10)])};</text> */}
+  
      <Topbar/>
      <div className="homeContainer">
      <Sidebar/>
