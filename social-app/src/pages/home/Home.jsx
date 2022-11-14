@@ -17,10 +17,6 @@ export default function Home() {
     sendRequest(urlLookup, bodyChiglel);
   }, []);
 
-  const a = ["data", "action"];
-a["action"] = "10"; // a: [ 0: 'foo', 1: 'bar', baz: 'quux' ]
-JSON.stringify(a);
-
   const sendRequest = async (url, body) => {
     await fetch(url, {
       method: "POST",
