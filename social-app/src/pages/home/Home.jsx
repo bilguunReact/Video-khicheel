@@ -7,6 +7,7 @@ import Feed from "../../components/feed/Feed";
 import Rightbar from "../../components/rightbar/Rightbar";
 import "./home.css"
 // import { sendRequest, urlLookup } from "../../settings/Settings";
+import {hariu} from "../../getdata/dummy";
 
 
 
@@ -14,7 +15,7 @@ import "./home.css"
 export default function Home() {
 return (
       <>
-      <Topbar/>
+      <Topbar ilgeeh = {hariu}/>
         <div className="homeContainer">
        <Sidebar/>
        <Feed/>
