@@ -2,21 +2,6 @@ import "./topbar.css";
 import { Search, Person, Chat, Notifications } from "@mui/icons-material";
 import {hariu} from "../../getdata/dummy";
 
-// function homepageClick(whichPage, en) {
-//   alert("H" + en);
-// }
-
-// export default function Topbar({ilgeeh}) {
-//   const [numberState, setNumber] = useState(0);
-//   let number = 0;
-
-//   function clickButton(0) {
-//     setNumber(numberState + 1);
-//     console.log("Button click" + numberState);
-//     e.preventDefault();
-//   }
-// }
-
 export default function Topbar ({ilgeeh}) {
   return (
     <>

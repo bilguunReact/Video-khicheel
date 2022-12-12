@@ -10,7 +10,7 @@ import "./home.css"
 import {hariu} from "../../getdata/dummy";
 
 
-
+      
 
 export default function Home() {
 return (
